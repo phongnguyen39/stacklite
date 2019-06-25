@@ -10,5 +10,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'stackLite';
   questions = ['one' , 'two' , 'three'];
+
+
+  search(){
+    console.log("Search on its way")
+  }
   
 }

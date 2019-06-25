@@ -5,8 +5,17 @@
   </h1>
 
   <p>Search for the highest voted and most viewed answers</p>
+
+  <form (submit)="search()">
+    <!-- <label for="">Subject</label><br> -->
+    <input style = "text-align:center" type="text" name="" placeholder="search"/><br>
+    <input type="submit" value="Search"/>
+  </form>
+
+
+
   
 
-  <div *ngFor = "let question of questions">
+  <div *ngFor="let question of questions">
     {{question}}
   </div>
